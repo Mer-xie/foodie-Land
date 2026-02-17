@@ -21,9 +21,18 @@ It includes:
 ---
 - **Frontend:** React, Next.js, TypeScript
 - **Styling:** Tailwind CSS 
-- Build Tool:** Vite 
+- **Build Tool:** Vite 
 - **Version Control:** Git & GitHub 
 - **Deployment:** Vercel
+
+## 🔗 API Integration
+
+This project uses the Spoonacular API to fetch:
+- 🍲 Recipes
+- 🍹 Drink recipes
+- 🧄 Ingredients lists
+- 📖 Step-by-step cooking directions
+- 🥗 Nutrition information (calories, vitamins)
 
 ## 📦 Prerequisites
 
