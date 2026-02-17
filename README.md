@@ -1,12 +1,10 @@
 # FoodieLand
 
 
----
 Foodie Land is a modern cooking blog application inspired by the **Cooking Template by Flowbase**. It transforms beautiful Figma designs into functional, responsive code — showcasing recipes, blog posts, and community content in a clean, engaging way.
 
 # 📖 About
 
---- 
 Foodie Land is designed as a food blog and recipe platform. 
 It includes: 
 - A welcoming **landing page** with a hero section 
@@ -18,16 +16,23 @@ It includes:
 
 ## 🛠️ Tech stack
 
----
 - **Frontend:** React, Next.js, TypeScript
 - **Styling:** Tailwind CSS 
-- Build Tool:** Vite 
+- **Build Tool:** Vite 
 - **Version Control:** Git & GitHub 
 - **Deployment:** Vercel
 
+## 🔗 API Integration
+
+This project uses the Spoonacular API to fetch:
+- 🍲 Recipes
+- 🍹 Drink recipes
+- 🧄 Ingredients lists
+- 📖 Step-by-step cooking directions
+- 🥗 Nutrition information (calories, vitamins)
+
 ## 📦 Prerequisites
 
----
 Before you begin, make sure you have the following installed:
 
 - npm
@@ -46,8 +51,6 @@ Before you begin, make sure you have the following installed:
 - Comfort with Git/GitHub workflows
 
 ## 🚀 Getting Started
-
----
 
 Clone the repo and install dependencies:
 - git clone https://github.com/Mer-xie/foodie-Land.git 
