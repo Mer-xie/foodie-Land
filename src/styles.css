@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+@theme{
+    --font-inter: "Inter", ui-sans-serif, system-ui;
+
+}
+
+@utility bg-dual-corners {
+    background-image: url('footer-2.svg'), url('footer-1.svg');
+    background-position: bottom left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+}

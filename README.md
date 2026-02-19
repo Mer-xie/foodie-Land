@@ -16,7 +16,7 @@ It includes:
 
 ## 🛠️ Tech stack
 
-- **Frontend:** React, Next.js, TypeScript
+- **Frontend:** React, JavaScript
 - **Styling:** Tailwind CSS 
 - **Build Tool:** Vite 
 - **Version Control:** Git & GitHub 
