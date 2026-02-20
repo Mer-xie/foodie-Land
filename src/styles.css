@@ -5,9 +5,12 @@
     --font-inter: "Inter", ui-sans-serif, system-ui;
 
 }
-
-@utility bg-dual-corners {
-    background-image: url('footer-2.svg'), url('footer-1.svg');
-    background-position: bottom left, bottom right;
-    background-repeat: no-repeat, no-repeat;
+.ul{
+    @apply list-none;
+}
+.blur-p{
+    @apply font-inter text-[16px] text-black/60;
+}
+button{
+    @apply cursor-pointer;
 }
