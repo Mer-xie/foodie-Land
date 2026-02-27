@@ -5,7 +5,7 @@ const InstagramSection = () => {
     return (
         <div className='mt-15 w-full h-fit bg-linear-to-b flex flex-col gap-10 bg-[#E7F9FD] from-20% to-[#E7F9FD] py-20 text-center'>
             <div className=' w-[840px] mx-auto flex flex-col gap-8'>
-                <h1 className='text-5xl font-semibold'>Check out @foodieland on Instagram</h1>
+                <h2 className='text-[47.5px] font-bold'>Check out @foodieland on Instagram</h2>
                  <p className='blur-p'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
              </div>
 

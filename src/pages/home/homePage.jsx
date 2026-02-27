@@ -1,16 +1,47 @@
-import React from "react";
 import {Header} from "../../components/header.jsx";
 import Categories from "../../components/categories.jsx";
 import InstagramSection from "../../components/instagramSection.jsx";
 
 export const HomePage = () => {
+    // const [recipe, setRecipe] = useState([])
+    // const [loading, setLoading] = useState(true)
+    //
+    // useEffect(() => {
+    //     const getRecipe = async () => {
+    //         const data = await fetchFromSpoonacular('/recipes/random', { number: 10 })
+    //         setRecipe(data.recipe)
+    //         setLoading(false)
+    //     }
+    //     getRecipe()
+    // }, [])
+    //
+    // if (loading) return <p>Loading...</p>
+
     return (
         <div className=''>
             <Header />
             <Categories />
+            <div className="w-[1280px] mx-auto text-center">
+                <h1 className=''>Simple and tasty recipes</h1>
+                <p className='w-[706px] mx-auto blur-p my-8'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+
+                {/*{recipe.map((recipes) => (*/}
+                {/*    <CardComponent*/}
+                {/*        key={recipes.id}*/}
+                {/*        image={recipes.image}*/}
+                {/*        title={recipes.title}*/}
+                {/*        readyInMinutes={recipes.readyInMinutes}*/}
+                {/*        dishTypes={recipes.dishTypes}*/}
+                {/*    />*/}
+                {/*))}*/}
+            <div>
+
+            </div>
+            </div>
+
             <div className='flex justify-between items-center my-18 mx-8'>
                 <div className='flex flex-col gap-12'>
-                    <h1 className='text-5xl font-bold w-[520px] leading-14'>Everyone can be a
+                    <h1 className='w-[520px] leading-14'>Everyone can be a
                         chef in their own kitchen</h1>
                     <p className='w-[480px]'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
                 <button className='w-[200px] h-[60px] bg-black text-center text-white text-sm rounded-3xl'>Learn More</button>

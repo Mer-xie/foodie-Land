@@ -9,7 +9,7 @@ export const Header = () => {
 
             <div className='w-[620px] h-[640px]  py-12 pl-12'>
                 <p className='w-[156px] h-[45px] bg-white flex rounded-4xl font-semibold text-sm px-2.5 py-2.5 items-center justify-center gap-2'><img src='/h-icon.svg' alt='' /> Hot Recipes </p>
-                <h1 className='w-[520px] h-[154px] text-[64px] font-semibold leading-19.5 my-6'>Spicy delicious chicken wings</h1>
+                <h2 className='w-[520px] h-[154px] text-[64px] font-bold leading-19.5 my-6'>Spicy delicious chicken wings</h2>
                 <p className='blur-p w-[520px]'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
                 <div className='w-[250px] flex justify-between pt-8 gap-5'>
                     <span className='flex  items-center justify-center gap-1 w-[139px] h-[40px] rounded-4xl bg-black/5'>
